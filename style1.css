@@ -1,0 +1,147 @@
+body {
+    background-image: url('stars1.gif');
+    background: size 100%;
+    background-position: center;
+    background-repeat:repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+h1 {
+    color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    list-style-type: none; 
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    display: block;
+    color: rgba(255, 183, 76, 1);
+}
+
+a {
+    color: rgba(173, 216, 230, 1);
+    text-decoration: none; 
+}
+a:hover {
+    color: rgba(255, 183, 76, 1);
+}
+#me {
+    width: 500px;
+    height: auto;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#ut_intro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+#info {
+    color:mediumspringgreen;
+    font-weight: bold;
+}
+#loves {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:x-large;
+    list-style-type: none; 
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    display: block;
+    color:chartreuse
+}
+#hammerplusplus-website {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-large;
+}
+#hpp_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h2 {
+    color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-style: italic;
+}
+#sourcethebest {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:x-large;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    display: block;
+    color:chartreuse
+}
+h3 {
+    color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+#ps {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:xx-large;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    display: block;
+    color:chartreuse;
+}
+.image-grid-item {
+    width: 150%;
+    max-width: 200px;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 600px) {
+    .image-grid-item {
+        width: calc(25% - 20px);
+    }
+}
+@media (max-width: 700px) {
+    .image-grid-item {
+        width: calc(50% - 20px); 
+    }
+}
+#mapsc{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#Hammermaptext {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: x-large;
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    display: block;
+    color: chartreuse;
+}

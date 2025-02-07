@@ -1,0 +1,71 @@
+body {
+    background-image: url('BG2.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-align: center;
+}
+h1 {
+    color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    list-style-type: none; 
+    padding: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    display: block;
+    color: rgba(255, 183, 76, 1);
+}
+
+a {
+    color: rgba(173, 216, 230, 1);
+    text-decoration: none; 
+}
+a:hover {
+    color: rgba(255, 183, 76, 1);
+}
+
+h2 {
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-style: italic;
+    font-size: xx-large;
+}
+
+#PTTS {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size:300%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    font-style:oblique;
+    color:azure;
+}
+#pttslogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:25%;
+    margin-top: 1.25%;
+}
+#gamepttssc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width:36%;
+}
